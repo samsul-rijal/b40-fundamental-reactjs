@@ -4,9 +4,10 @@ import "./index.css";
 
 // import component
 
-ReactDOM.render(
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
     <Component />
-  </React.StrictMode>,
-  document.getElementById("root")
-);
+  </React.StrictMode>
+); 
