@@ -4,7 +4,7 @@ import React from "react";
 
 //Create Component GuestPage
 
-function ConditionRenderin() {
+function ConditionRendering() {
   //init State
   return (
     // Code Inside div
@@ -12,4 +12,4 @@ function ConditionRenderin() {
   );
 }
 
-export default ConditionRenderin;
+export default ConditionRendering;
